@@ -6,7 +6,7 @@ describe("POST / Register", () => {
     return request(server)
       .post("/api/auth/register")
       .send({
-        username: "Tauan13",
+        username: "Tauan20",
         password: "password",
       })
       .then((res) => {
